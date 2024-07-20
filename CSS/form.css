@@ -1,0 +1,92 @@
+.form__labelText {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 5px;
+    color: black;
+  }
+  
+  .form__field {
+    border: 2px white;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .form__field:hover {
+    background-color: hsl(0, 0%, 85%);
+  }
+  
+  .form__field:active {
+    outline-color: hsl(160, 100%, 35%);
+  }
+  
+  .form__field:focus {
+    outline-color: hsl(160, 100%, 35%);
+  }
+  
+  .form__field--select {
+    width: 200px;
+  }
+  
+  .form__legend {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+  }
+    
+    .form__button {
+     width: 100%;
+     border: 3px solid black;
+     padding: 10px;
+     margin: 10px 0px 0px 0px;
+     border-radius: 25px;
+     background-color: hsl(55, 84%, 50%);
+  }
+  
+   .form__button2 {
+     width: 100%;   
+     border: 3px solid black;
+     padding: 10px;
+     margin: 10px 0px 0px 0px;
+     border-radius: 25px;
+     background-color: hsl(55, 84%, 50%);
+  }
+  
+  .form__button:hover {
+    background-color: hsl(55, 84%, 80%);
+  }
+  
+  .form__button2:hover {
+    background-color: hsl(55, 84%, 80%);
+  }
+  
+  .form__button:active {
+    background-color: hsl(55, 84%, 90%)
+  }
+  
+  .form__button2:active {
+    background-color: hsl(55, 84%, 90%);
+  }
+  
+  .form__fieldset {
+    background-color: whitesmoke;
+    border: 3px white;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0px;
+  }
+  
+  .form__field:required {
+    border-color: black;
+  }
+  
+  .form__field:select {
+    width: 100px;
+  }
+  
